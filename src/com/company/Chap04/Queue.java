@@ -49,9 +49,9 @@ public class Queue {
     public void display() {
         for (int i = 0; i < nItems; i++) {
             if (front + i >= maxSize)
-                System.out.println(queArray[front + i - maxSize]);
+                System.out.print(queArray[front + i - maxSize] + " ");
             else
-                System.out.println(queArray[front + i]);
+                System.out.print(queArray[front + i] + " ");
         }
     }
 }
